@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F01302E1A4418F1002131D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F01302D1A4418F1002131D3 /* AppDelegate.swift */; };
+		6F0130301A4418F1002131D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F01302F1A4418F1002131D3 /* ViewController.swift */; };
+		6F0130331A4418F1002131D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0130311A4418F1002131D3 /* Main.storyboard */; };
+		6F0130351A4418F1002131D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0130341A4418F1002131D3 /* Images.xcassets */; };
+		6F0130381A4418F1002131D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0130361A4418F1002131D3 /* LaunchScreen.xib */; };
+		6F0130441A4418F1002131D3 /* Sexy_TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130431A4418F1002131D3 /* Sexy_TabsTests.swift */; };
+		6F01305B1A441A15002131D3 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130501A441A15002131D3 /* RAMBounceAnimation.swift */; };
+		6F01305C1A441A15002131D3 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130521A441A15002131D3 /* RAMFrameItemAnimation.swift */; };
+		6F01305D1A441A15002131D3 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130541A441A15002131D3 /* RAMFumeAnimation.swift */; };
+		6F01305E1A441A15002131D3 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130561A441A15002131D3 /* RAMRotationAnimation.swift */; };
+		6F01305F1A441A15002131D3 /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130581A441A15002131D3 /* RAMTransitionItemAnimation.swift */; };
+		6F0130601A441A15002131D3 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0130591A441A15002131D3 /* RAMAnimatedTabBarController.swift */; };
+		6F0130611A441A15002131D3 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F01305A1A441A15002131D3 /* RAMItemAnimationProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F01303E1A4418F1002131D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0130201A4418F1002131D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0130271A4418F1002131D3;
+			remoteInfo = "Sexy Tabs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0130281A4418F1002131D3 /* Sexy Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sexy Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F01302C1A4418F1002131D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F01302D1A4418F1002131D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F01302F1A4418F1002131D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F0130321A4418F1002131D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0130341A4418F1002131D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F0130371A4418F1002131D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F01303D1A4418F1002131D3 /* Sexy TabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sexy TabsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0130421A4418F1002131D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0130431A4418F1002131D3 /* Sexy_TabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sexy_TabsTests.swift; sourceTree = "<group>"; };
+		6F0130501A441A15002131D3 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		6F0130521A441A15002131D3 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		6F0130541A441A15002131D3 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		6F0130561A441A15002131D3 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		6F0130581A441A15002131D3 /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
+		6F0130591A441A15002131D3 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		6F01305A1A441A15002131D3 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0130251A4418F1002131D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F01303A1A4418F1002131D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F01301F1A4418F1002131D3 = {
+			isa = PBXGroup;
+			children = (
+				6F01302A1A4418F1002131D3 /* Sexy Tabs */,
+				6F0130401A4418F1002131D3 /* Sexy TabsTests */,
+				6F0130291A4418F1002131D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0130291A4418F1002131D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130281A4418F1002131D3 /* Sexy Tabs.app */,
+				6F01303D1A4418F1002131D3 /* Sexy TabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F01302A1A4418F1002131D3 /* Sexy Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6F01304D1A441A15002131D3 /* RAMAnimatedTabBarController */,
+				6F01302D1A4418F1002131D3 /* AppDelegate.swift */,
+				6F01302F1A4418F1002131D3 /* ViewController.swift */,
+				6F0130311A4418F1002131D3 /* Main.storyboard */,
+				6F0130341A4418F1002131D3 /* Images.xcassets */,
+				6F0130361A4418F1002131D3 /* LaunchScreen.xib */,
+				6F01302B1A4418F1002131D3 /* Supporting Files */,
+			);
+			path = "Sexy Tabs";
+			sourceTree = "<group>";
+		};
+		6F01302B1A4418F1002131D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F01302C1A4418F1002131D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F0130401A4418F1002131D3 /* Sexy TabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130431A4418F1002131D3 /* Sexy_TabsTests.swift */,
+				6F0130411A4418F1002131D3 /* Supporting Files */,
+			);
+			path = "Sexy TabsTests";
+			sourceTree = "<group>";
+		};
+		6F0130411A4418F1002131D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130421A4418F1002131D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F01304D1A441A15002131D3 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6F01304E1A441A15002131D3 /* Animations */,
+				6F0130591A441A15002131D3 /* RAMAnimatedTabBarController.swift */,
+				6F01305A1A441A15002131D3 /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		6F01304E1A441A15002131D3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6F01304F1A441A15002131D3 /* BounceAnimation */,
+				6F0130511A441A15002131D3 /* FrameAnimation */,
+				6F0130531A441A15002131D3 /* FumeAnimation */,
+				6F0130551A441A15002131D3 /* RotationAnimation */,
+				6F0130571A441A15002131D3 /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6F01304F1A441A15002131D3 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130501A441A15002131D3 /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		6F0130511A441A15002131D3 /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130521A441A15002131D3 /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		6F0130531A441A15002131D3 /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130541A441A15002131D3 /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		6F0130551A441A15002131D3 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130561A441A15002131D3 /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		6F0130571A441A15002131D3 /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				6F0130581A441A15002131D3 /* RAMTransitionItemAnimation.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0130271A4418F1002131D3 /* Sexy Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0130471A4418F1002131D3 /* Build configuration list for PBXNativeTarget "Sexy Tabs" */;
+			buildPhases = (
+				6F0130241A4418F1002131D3 /* Sources */,
+				6F0130251A4418F1002131D3 /* Frameworks */,
+				6F0130261A4418F1002131D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sexy Tabs";
+			productName = "Sexy Tabs";
+			productReference = 6F0130281A4418F1002131D3 /* Sexy Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F01303C1A4418F1002131D3 /* Sexy TabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F01304A1A4418F1002131D3 /* Build configuration list for PBXNativeTarget "Sexy TabsTests" */;
+			buildPhases = (
+				6F0130391A4418F1002131D3 /* Sources */,
+				6F01303A1A4418F1002131D3 /* Frameworks */,
+				6F01303B1A4418F1002131D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F01303F1A4418F1002131D3 /* PBXTargetDependency */,
+			);
+			name = "Sexy TabsTests";
+			productName = "Sexy TabsTests";
+			productReference = 6F01303D1A4418F1002131D3 /* Sexy TabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0130201A4418F1002131D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SwiftCast.TV;
+				TargetAttributes = {
+					6F0130271A4418F1002131D3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6F01303C1A4418F1002131D3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6F0130271A4418F1002131D3;
+					};
+				};
+			};
+			buildConfigurationList = 6F0130231A4418F1002131D3 /* Build configuration list for PBXProject "Sexy Tabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F01301F1A4418F1002131D3;
+			productRefGroup = 6F0130291A4418F1002131D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0130271A4418F1002131D3 /* Sexy Tabs */,
+				6F01303C1A4418F1002131D3 /* Sexy TabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0130261A4418F1002131D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0130331A4418F1002131D3 /* Main.storyboard in Resources */,
+				6F0130381A4418F1002131D3 /* LaunchScreen.xib in Resources */,
+				6F0130351A4418F1002131D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F01303B1A4418F1002131D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0130241A4418F1002131D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F01305D1A441A15002131D3 /* RAMFumeAnimation.swift in Sources */,
+				6F01305C1A441A15002131D3 /* RAMFrameItemAnimation.swift in Sources */,
+				6F0130611A441A15002131D3 /* RAMItemAnimationProtocol.swift in Sources */,
+				6F01305B1A441A15002131D3 /* RAMBounceAnimation.swift in Sources */,
+				6F01305F1A441A15002131D3 /* RAMTransitionItemAnimation.swift in Sources */,
+				6F0130301A4418F1002131D3 /* ViewController.swift in Sources */,
+				6F0130601A441A15002131D3 /* RAMAnimatedTabBarController.swift in Sources */,
+				6F01302E1A4418F1002131D3 /* AppDelegate.swift in Sources */,
+				6F01305E1A441A15002131D3 /* RAMRotationAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0130391A4418F1002131D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0130441A4418F1002131D3 /* Sexy_TabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F01303F1A4418F1002131D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0130271A4418F1002131D3 /* Sexy Tabs */;
+			targetProxy = 6F01303E1A4418F1002131D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0130311A4418F1002131D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0130321A4418F1002131D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F0130361A4418F1002131D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0130371A4418F1002131D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0130451A4418F1002131D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F0130461A4418F1002131D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0130481A4418F1002131D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sexy Tabs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F0130491A4418F1002131D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sexy Tabs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F01304B1A4418F1002131D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sexy TabsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sexy Tabs.app/Sexy Tabs";
+			};
+			name = Debug;
+		};
+		6F01304C1A4418F1002131D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sexy TabsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sexy Tabs.app/Sexy Tabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0130231A4418F1002131D3 /* Build configuration list for PBXProject "Sexy Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0130451A4418F1002131D3 /* Debug */,
+				6F0130461A4418F1002131D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0130471A4418F1002131D3 /* Build configuration list for PBXNativeTarget "Sexy Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0130481A4418F1002131D3 /* Debug */,
+				6F0130491A4418F1002131D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F01304A1A4418F1002131D3 /* Build configuration list for PBXNativeTarget "Sexy TabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F01304B1A4418F1002131D3 /* Debug */,
+				6F01304C1A4418F1002131D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0130201A4418F1002131D3 /* Project object */;
+}

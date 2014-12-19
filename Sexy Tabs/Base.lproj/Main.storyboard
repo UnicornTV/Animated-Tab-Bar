@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C81f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WRe-Vj-WfZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--Read-->
+        <scene sceneID="Hvz-m0-lxT">
+            <objects>
+                <viewController id="GM3-qY-8xO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rcd-Fj-vad"/>
+                        <viewControllerLayoutGuide type="bottom" id="S3r-4v-Gbr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BCn-a2-0Z6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.08235294118" green="0.43137254899999999" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Read" image="read" id="REk-hH-l7p" customClass="RAMAnimatedTabBarItem" customModule="Sexy_Tabs" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="wKo-lj-gYz" id="J7U-H5-YtP"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btW-ot-sA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="wKo-lj-gYz" customClass="RAMFlipLeftTransitionItemAniamtions" customModule="Sexy_Tabs" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.08235294118" green="0.43137254899999999" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.08235294118" green="0.43137254899999999" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1412" y="-351"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Sexy_Tabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.38375306129999998" green="0.19593107700000001" blue="0.71045380830000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="w9B-Te-xiI" customClass="RAMAnimatedTabBarItem" customModule="Sexy_Tabs" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="kS6-zt-Sq9" id="bV7-ej-Siy"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <customObject id="kS6-zt-Sq9" customClass="RAMBounceAnimation" customModule="Sexy_Tabs" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.38375306129999998" green="0.19593107700000001" blue="0.71045380830000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.38375306129999998" green="0.19593107700000001" blue="0.71045380830000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1409" y="389"/>
+        </scene>
+        <!--Write-->
+        <scene sceneID="BOm-So-GqJ">
+            <objects>
+                <viewController id="ti6-QQ-EO0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sat-IF-Thy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nar-il-34P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="usI-ra-UUp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.08235294118" green="0.27058823529999998" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Write" image="write" id="Rpv-4m-hNE" customClass="RAMAnimatedTabBarItem" customModule="Sexy_Tabs" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="tmf-j3-jMu" id="MG7-Ho-Yzj"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgr-TC-Asa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="tmf-j3-jMu" customClass="RAMFumeAnimation" customModule="Sexy_Tabs" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.08235294118" green="0.27058823529999998" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.08235294118" green="0.27058823529999998" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="597" y="-367"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="pXb-OE-MdF">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="WRe-Vj-WfZ" customClass="RAMAnimatedTabBarController" customModule="Sexy_Tabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="4oc-Ln-vRf">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ti6-QQ-EO0" kind="relationship" relationship="viewControllers" id="zEj-dS-Oj6"/>
+                        <segue destination="GM3-qY-8xO" kind="relationship" relationship="viewControllers" id="2yX-UV-P96"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="SzQ-dW-Yh2"/>
+                        <segue destination="QT0-hh-ybx" kind="relationship" relationship="viewControllers" id="E8u-F4-tIT"/>
+                        <segue destination="EEU-LG-V3Y" kind="relationship" relationship="viewControllers" id="X19-3l-fPb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQu-FA-iGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597" y="389"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="3AZ-5C-ajd">
+            <objects>
+                <viewController id="EEU-LG-V3Y" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zJ6-Rr-0dD"/>
+                        <viewControllerLayoutGuide type="bottom" id="vP7-xC-izr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hlW-np-USF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.62745098040000002" green="0.47843137250000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="DZe-Py-PTd" customClass="RAMAnimatedTabBarItem" customModule="Sexy_Tabs" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="S9y-s2-VLc" id="i6A-Bz-4H1"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ISV-V5-oEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="S9y-s2-VLc" customClass="RAMRightRotationAnimation" customModule="Sexy_Tabs" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.62745098040000002" green="0.47843137250000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.62745098040000002" green="0.47843137250000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="597" y="1127"/>
+        </scene>
+        <!--Trends-->
+        <scene sceneID="vLw-cI-aBe">
+            <objects>
+                <viewController id="QT0-hh-ybx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iyx-nI-DaX"/>
+                        <viewControllerLayoutGuide type="bottom" id="shY-Ig-qrS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rvs-3t-2HB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.43137254899999999" green="0.08235294118" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trends" image="stats" id="f56-sh-cAN" customClass="RAMAnimatedTabBarItem" customModule="Sexy_Tabs" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="6Ay-cu-rtw" id="UPm-YE-c0e"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdj-Gk-3YT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="6Ay-cu-rtw" customClass="RAMFlipRightTransitionItemAniamtions" customModule="Sexy_Tabs" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.43137254899999999" green="0.08235294118" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.43137254899999999" green="0.08235294118" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1409" y="1127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" width="26" height="26"/>
+        <image name="read" width="22" height="26"/>
+        <image name="settings" width="27" height="27"/>
+        <image name="stats" width="27" height="21"/>
+        <image name="write" width="26" height="24"/>
+    </resources>
+</document>
